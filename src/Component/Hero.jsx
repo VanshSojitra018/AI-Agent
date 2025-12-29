@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const Hero = () => {
   return (
     <>
-       <section className="flex flex-col items-center text-white text-sm bg-black z-50 relative overflow-hidden">
+       <section className="flex flex-col items-center text-white text-sm bg-black  relative overflow-hidden">
 
       <svg className="absolute z-10 w-screen -mt-40 md:mt-0" width="1440" height="676" viewBox="0 0 1440 676" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="-92" y="-948" width="1624" height="1624" rx="812" fill="url(#a)" />
@@ -18,20 +18,20 @@ const Hero = () => {
 
       <Navbar />
 
-      <div className="flex items-center mt-32 gap-2 border border-slate-600 text-gray-50 rounded-full px-4 py-2 z-50">
+      <div className="flex items-center mt-32 gap-2 border border-slate-600 text-gray-50 rounded-full px-4 py-2 ">
         <div className="size-2.5 bg-green-500 rounded-full" />
         <span>Book a live demo today</span>
       </div>
 
-      <h1 className="text-center text-5xl leading-[68px] md:text-6xl md:leading-[70px] mt-4 font-semibold max-w-2xl z-50">
+      <h1 className="text-center text-5xl leading-17 md:text-6xl md:leading-17.5 mt-4 font-semibold max-w-2xl ">
         Let's build AI agents together
       </h1>
 
-      <p className="text-center text-base max-w-lg mt-2 z-50">
+      <p className="text-center text-base max-w-lg mt-2 ">
         Our platform helps you build, test, and deliver faster — so you can focus on what matters.
       </p>
 
-      <div className="flex items-center gap-4 mt-8 z-50">
+      <div className="flex items-center gap-4 mt-8 ">
         <button className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white active:scale-95 rounded-lg px-7 h-11">
           Get started
         </button>
@@ -43,7 +43,7 @@ const Hero = () => {
 
       <img
         src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/hero/hero-section-showcase-2.png"
-        className="w-full rounded-[15px] max-w-4xl mt-16 z-50"
+        className="w-full rounded-[15px] max-w-4xl z-10 mt-16 "
       />
     </section>
     </>
