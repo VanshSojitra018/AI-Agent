@@ -4,6 +4,8 @@ import Feature from "./Component/Feature";
 import Footer from "./Component/Footer";
 import Pricing from "./Component/Pricing";
 import Testi from "./Component/Testi";
+import CalltoAction from "./Component/CalltoAction";
+import FAQ from "./Component/FAQ";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Hero />
       <Feature />
       <Pricing />
-      <Testi/>
+      <Testi />
+      <FAQ />
+      <CalltoAction />
       <Footer />
     </>
   );
